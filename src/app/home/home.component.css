@@ -9,4 +9,51 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 10px 20px;
+    background: blue;
+    padding: 20px 25px;
+}
+
+.left-navbar{
+    background: red;
+    width: 20%;
+    height: 85vh;
+    margin: 10px 20px;
+}
+
+.right-content{
+    background: red;
+    width: 100%;
+    height: 85vh;
+    margin: 10px 20px 10px 0px;
+}
+
+.body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover{
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: red;
+    padding: 10px 15px;
 }
