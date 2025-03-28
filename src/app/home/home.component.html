@@ -1,9 +1,13 @@
 <div>
-    <h1 [innerHTML]="title"></h1>
-    
-    <p [textContent]="id"></p>
-    <p [textContent]="name"></p>
-    <p [textContent]="age"></p>
-    <p [textContent]="email"></p>
-    <p [textContent]="mobile"></p>
+    <header>
+        <h1 [innerHTML]="logo" class="logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 </div>

@@ -11,6 +11,7 @@ export class HomeComponent {
     * title label
   */
   title: string = "Your Information"
+  logo: string = "Angular-CRUD"
   /*
     * information
   */
